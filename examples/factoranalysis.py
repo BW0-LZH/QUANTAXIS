@@ -1,3 +1,15 @@
+'''
+Author: LZH
+Date: 2022-08-31 16:33:40
+LastEditors: LZH
+LastEditTime: 2022-08-31 20:20:10
+FilePath: /Code/QUANTAXIS/examples/factoranalysis.py
+Description: 
+
+Copyright (c) 2022 by 用户/公司名, All Rights Reserved. 
+'''
+import sys
+sys.path.append("/home/vipsl416-1-liangzehong/LZH/Code/QUANTAXIS")
 import QUANTAXIS as QA
 import pandas as pd
 clickhouse_port = 9001
