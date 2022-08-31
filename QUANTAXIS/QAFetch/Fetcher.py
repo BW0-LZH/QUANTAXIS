@@ -31,6 +31,7 @@ QAFetch is Under [QAStandard#0.0.2@10x] Protocol
 
 
 """
+
 from QUANTAXIS.QAData.QADataStruct import (QA_DataStruct_Future_day,
                                            QA_DataStruct_Future_min,
                                            QA_DataStruct_Future_realtime,

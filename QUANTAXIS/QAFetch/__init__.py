@@ -31,7 +31,6 @@ QAFetch is Under [QAStandard#0.0.2@10x] Protocol
 
 
 """
-
 from QUANTAXIS.QAFetch import QATushare as QATushare
 from QUANTAXIS.QAFetch import QATdx as QATdx
 from QUANTAXIS.QAFetch import QAThs as QAThs

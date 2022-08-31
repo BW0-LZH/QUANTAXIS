@@ -25,6 +25,8 @@
 
 import pandas as pd
 import random
+import sys
+sys.path.append("/home/vipsl416-1-liangzehong/LZH/Code/QUANTAXIS/")
 from QUANTAXIS.QAUtil.QADate_trade import trade_date_sse
 from QUANTAXIS.QAUtil.QADate import QA_util_date_str2int
 from QUANTAXIS.QAUtil.QACode import QA_util_code_tostr
@@ -99,5 +101,5 @@ def QA_fetch_zjlx(code=None):
 
 
 if __name__ == "__main__":
-    print(QA_fetch_get_sz_margin('2018-01-25'))
-    print(QA_fetch_get_sh_margin('2018-01-25'))
+    print(QA_fetch_get_sz_margin('2022-08-13'))
+    print(QA_fetch_get_sh_margin('2022-08-13'))
